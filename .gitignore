@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Local data and secrets
+.env
+*.db
+*.sqlite3
+data/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Documents still under review — delete a line when that file is ready to publish
+# (.docx files stay out of the repo by design: they duplicate the .md and Git cannot diff them)
+docs/roadmap.md
+docs/handbook.md
+docs/handbook.docx
+docs/what-we-are-building.md
+docs/what-we-are-building.docx
+docs/white-paper.docx
